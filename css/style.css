@@ -1,0 +1,200 @@
+/* =========================================================
+   BASE / RESET
+========================================================= */
+
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+
+  /* evita site estourar em tela grande */
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h5 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* hover geral */
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px rgba(255,255,255,0.15);
+}
+
+/* =========================================================
+   HOME HOVER
+========================================================= */
+
+#home .card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 20px 40px rgba(255,255,255,0.25);
+}
+
+/* =========================================================
+   TOP 10
+========================================================= */
+
+/* 🔥 REMOVIDO width fixa (isso quebrava responsividade) */
+#top10-container .card {
+  font-size: 0.9rem;
+}
+
+/* badge */
+.top-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #ffc107;
+  color: #000;
+  font-weight: bold;
+  font-size: .9rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* =========================================================
+   TOP 1 OVERLAY
+========================================================= */
+
+#top1-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(6px);
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+}
+
+#top1-overlay.show {
+  display: flex;
+}
+
+.top1-card {
+  background: #111;
+  border: 3px solid gold;
+  box-shadow: 0 0 40px rgba(255,215,0,0.6);
+  max-width: 90%;
+  width: 320px;
+  border-radius: 12px;
+  animation: pulseGold 2s infinite;
+}
+
+.top1-card img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 20px rgba(255,215,0,0.4); }
+  50% { box-shadow: 0 0 50px rgba(255,215,0,0.9); }
+}
+
+/* =========================================================
+   MODAL PADRÃO (UNIFICADO)
+========================================================= */
+
+#modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  padding: 20px;
+}
+
+.modal-box {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 95%;
+}
+
+/* =========================================================
+   TOP 3
+========================================================= */
+
+.top3-focus {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.top3-focus:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* =========================================================
+   DÉCADAS
+========================================================= */
+
+#modal-decada-filmes .filme img {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* =========================================================
+   UTIL
+========================================================= */
+
+.qtd-filmes {
+  color: #28a745;
+}
+
+.analise-decada {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   RESPONSIVO (IMPORTANTE PRA APRESENTAÇÃO)
+========================================================= */
+
+@media (max-width: 768px) {
+  h1, h2, h5 {
+    font-size: 1.3rem;
+  }
+
+  .modal-box {
+    width: 95%;
+  }
+
+  .top1-card {
+    width: 95%;
+  }
+}
+
+/* =========================================================
+   EVITA IMAGEM ESTOURAR LAYOUT
+========================================================= */
+
+img {
+  max-width: 100%;
+  height: auto;
+}

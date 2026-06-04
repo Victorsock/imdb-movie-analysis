@@ -1,0 +1,261 @@
+{
+  "1920": [
+    {
+      "title": "The Kid",
+      "title_pt": "O Garoto",
+      "poster": "img/ogaroto.png",
+      "year": 1921,
+      "rating": 8.2
+    },
+    {
+      "title": "Metropolis",
+      "title_pt": "Metrópolis",
+      "poster": "img/metropolis.png",
+      "year": 1927,
+      "rating": 8.2
+    },
+    {
+      "title": "The Circus",
+      "title_pt": "O Circo",
+      "poster": "img/thecircus.png",
+      "year": 1928,
+      "rating": 8.1
+    }
+  ],
+
+  "1930": [
+    {
+      "title": "Dracula",
+      "title_pt": "Drácula",
+      "poster": "img/dracula.jpg",
+      "year": 1931,
+      "rating": 7.3
+    },
+    {
+      "title": "Frankenstein",
+      "title_pt": "Frankenstein",
+      "poster": "img/frank.png",
+      "year": 1931,
+      "rating": 7.7
+    },
+    {
+      "title": "King Kong",
+      "title_pt": "King Kong",
+      "poster": "img/kingkong.png",
+      "year": 1933,
+      "rating": 7.9
+    }
+  ],
+
+  "1940": [
+    {
+      "title": "Citizen Kane",
+      "title_pt": "Cidadão Kane",
+      "poster": "img/cidadaokane.jpg",
+      "year": 1941,
+      "rating": 8.2
+    },
+    {
+      "title": "Casablanca",
+      "title_pt": "Casablanca",
+      "poster": "img/casablanca.jpg",
+      "year": 1942,
+      "rating": 8.5
+    },
+    {
+      "title": "Bicycle Thieves",
+      "title_pt": "Ladrões de Bicicleta",
+      "poster": "img/bicycleThief.png",
+      "year": 1948,
+      "rating": 8.2
+    }
+  ],
+
+  "1950": [
+    {
+      "title": "12 Angry Men",
+      "title_pt": "12 Homens e uma Sentença",
+      "poster": "img/12homenseuma.png",
+      "year": 1957,
+      "rating": 9.0
+    },
+    {
+      "title": "Vertigo",
+      "title_pt": "Um Corpo que Cai",
+      "poster": "img/umcorpoquecai.png",
+      "year": 1958,
+      "rating": 8.2
+    },
+    {
+      "title": "Seven Samurai",
+      "title_pt": "Os Sete Samurais",
+      "poster": "img/ossetessamurais.png",
+      "year": 1954,
+      "rating": 8.6
+    }
+  ],
+
+  "1960": [
+    {
+      "title": "Il buono, il brutto, il cattivo",
+      "title_pt": "Três Homens em Conflito",
+      "poster": "img/treshomens.png",
+      "year": 1966,
+      "rating": 8.8
+    },
+    {
+      "title": "A Space Odyssey",
+      "title_pt": "2001: Uma Odisséia no Espaço",
+      "poster": "img/Uma Odisséia no Espaço.png",
+      "year": 1968,
+      "rating": 8.3  
+    },
+    {
+      "title": "Psycho",
+      "title_pt": "Psicose",
+      "poster": "img/psicose.png",
+      "year": 1960,
+      "rating": 8.5     
+    }
+  ],
+  
+  "1970": [
+    {
+      "title": "Jaws",
+      "title_pt": "Tubarão",
+      "poster": "img/JAWS.jpg",
+      "year": 1975,
+      "rating": 8.1
+    },
+    {
+      "title": "The Godfather",
+      "title_pt": "O Poderoso Chefão",
+      "poster": "img/opoderoso.jpg",
+      "year": 1972,
+      "rating": 9.2
+    },
+    {
+      "title": "Star Wars",
+      "title_pt": "Star Wars: Episódio IV - Uma Nova Esperança",
+      "poster": "img/starwars.jpg",
+      "year": 1977,
+      "rating": 8.6
+    }
+  ],
+
+  "1980": [
+    {
+      "title": "The Terminator",
+      "title_pt": "O Exterminador do Futuro",
+      "poster": "img/oexterminador.png",
+      "year": 1984,
+      "rating": 8.1
+    },
+    {
+      "title": "Ghostbusters",
+      "title_pt": "Os Caça-Fantasmas",
+      "poster": "img/oscacas.png",
+      "year": 1984,
+      "rating": 7.8
+    },
+    {
+      "title": "Back to the Future",
+      "title_pt": "De Volta para o Futuro",
+      "poster": "img/Devoltaparaofuturo.jpg",
+      "year": 1985,
+      "rating": 8.5
+    }
+  ],
+
+  "1990": [
+    {
+      "title": "Jurassic Park",
+      "title_pt": "Parque dos Dinossauros",
+      "poster": "img/jurassic.jpg",
+      "year": 1993,
+      "rating": 8.2
+    },
+    {
+      "title": "Titanic",
+      "poster": "img/Titanic.png",
+      "year": 1997,
+      "rating": 8.0
+    },
+    {
+      "title": "The Matrix",
+      "title_pt": "Matrix",
+      "poster": "img/thematrix.png",
+      "year": 1999,
+      "rating": 8.7
+    }
+  ],
+
+   "2000": [
+  {
+    "title": "Avatar",
+    "poster": "img/Avatar.jpg",
+    "year": 2009,
+    "rating": 7.9  
+  },
+  {
+    "title": "Spider-Man 2",
+    "title_pt": "Homem-Aranha 2",
+    "poster": "img/homemaranha2.png",
+    "year": 2004,
+    "rating": 7.5   
+  },
+  {
+    "title": "The Dark Knight",
+    "title_pt": "Batman: O Cavaleiro das Trevas",
+    "poster": "img/batmancavaleiro.png",
+    "year": 2008,
+    "rating": 9.1
+  }
+],
+
+"2010": [
+  {
+    "title": "Interestelar",
+    "title_pt": "Interstellar",
+    "poster": "img/interestelar.png",
+    "year": 2014,
+    "rating": 8.7
+  },
+  {
+    "title": "A Origem",
+    "title_pt": "Inception",
+    "poster": "img/a origem.jpg",
+    "year": 2010,
+    "rating": 8.8
+  },
+  {
+    "title": "Vingadores: Ultimato",
+    "title_pt": "Avengers: Endgame",
+    "poster": "img/Vingadoresultimato.png",
+    "year": 2019,
+    "rating": 8.4
+  }
+],
+"2020": [
+  {
+    "title": "Oppenheimer",
+    "poster": "img/Oppenheimer.png",
+    "year": 2023,
+    "rating": 8.2
+  },
+  {
+    "title": "Homem-Aranha: Sem Volta para Casa",
+    "title_pt": "Spider-Man: No Way Home",
+    "poster": "img/homemaranha.png",
+    "year": 2021,
+    "rating": 8.1
+  },
+  {
+    "title": "Missão: Impossível - O Acerto Final",
+    "title_pt": "Mission: Impossible - The Final Reckoning",
+    "poster": "img/missaoimpossivel.jpg",
+    "year": 2025,
+    "rating": 7.1
+  }
+]
+}

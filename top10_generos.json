@@ -1,0 +1,42 @@
+[
+    {
+        "Genre":"Faroeste",
+        "IMDB_Rating":8.35
+    },
+    {
+        "Genre":"Crime",
+        "IMDB_Rating":8.0168224299
+    },
+    {
+        "Genre":" War",
+        "IMDB_Rating":8.0137254902
+    },
+    {
+        "Genre":"Fantasia",
+        "IMDB_Rating":8.0
+    },
+    {
+        "Genre":" Film-Noir",
+        "IMDB_Rating":7.99375
+    },
+    {
+        "Genre":" Sci-Fi",
+        "IMDB_Rating":7.9776119403
+    },
+    {
+        "Genre":"Mistério",
+        "IMDB_Rating":7.975
+    },
+    {
+        "Genre":" Mystery",
+        "IMDB_Rating":7.9666666667
+    },
+    {
+        "Genre":"Filme Noir",
+        "IMDB_Rating":7.9666666667
+    },
+    {
+        "Genre":" Drama",
+        "IMDB_Rating":7.9606896552
+    }
+]
